@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 768px) {
+
+    .section-header p {
+        padding: 0 15%;
+    }
+
+    header {
+        padding: 5px 0;
+    }
+
+    .site-box,
+    .work-box,
+    #facility article,
+    #facility aside,
+    .facility-box,
+    .service-box,
+    #about article,
+    #about aside,
+    .team-box,
+    .blog-box,
+    #contact-form,
+    #contact aside,
+    footer .about,
+    footer .features,
+    footer .social,
+    footer .newsletter,
+    #main article,
+    #main aside {
+        float: none;
+        width: 80%;
+        margin: 25px 10%;
+    }
+
+    #facility {
+        width: 80%;
+        margin: 25px 10%;
+        padding: 25px;
+    }
+    #facility article {
+        padding-right: 0;
+    }
+    .facility-box,
+    .about-box {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    .team-box img{
+        width: 250px;
+    }
+
+    #contact-form .input-box {
+        width: 100%;
+    }
+    
+    #newsletter-form input[type="email"] {
+        width: 250px;
+    }
+
+    #main #contact-form {
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 520px) {
+
+    .section-header p {
+        padding: 0 10%;
+    }
+
+    header {
+        padding: 0;
+        padding-bottom: 15px;
+    }
+    #logo,
+    header nav {
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+    #logo {
+        margin-left: 8px;
+    }
+
+    .site-box,
+    .work-box,
+    #facility article,
+    #facility aside,
+    .facility-box,
+    .service-box,
+    #about article,
+    #about aside,
+    .team-box,
+    .blog-box,
+    #contact-form,
+    #contact aside,
+    footer .about,
+    footer .features,
+    footer .social,
+    footer .newsletter,
+    #main article,
+    #main aside {
+        float: none;
+        width: 90%;
+        margin: 25px 5%;
+    }
+
+    #facility {
+        width: 90%;
+        margin: 25px 5%;
+        padding: 25px;
+    }
+
+}
